@@ -3,6 +3,7 @@
     background-color:rgb(49, 0, 163);
     height: 90px;
     font-size: 50px;
+    text-align:center;
 }
 
 .TitoChi{
@@ -24,4 +25,14 @@
 .ChiP{
     display: flex;
     border: 2px solid black;
+}
+.inizio{
+    display: flex;
+}
+
+.img{
+    width:80%;
+    height:80%;
+    padding-left: 10%;
+    align-items: center;
 }
