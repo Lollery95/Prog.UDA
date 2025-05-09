@@ -1,138 +1,138 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
-}
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+        }
+        h1 {
+            color: #1a5276;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+        .main-image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .menu {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 40px 0;
+            padding: 0;
+            list-style: none;
+        }
+        .TitoChi {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: #1a5276;
+            height: 90px;
+            font-size: 50px;
+        }
+        .TitoChi2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ChiP {
+            display: flex;
+            border: 2px solid black;
+        }
+        .menu-item {
+            flex: 1;
+            margin: 0 10px;
+            background-color: #2874a6;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .menu-item a {
+            display: block;
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .menu-item:hover {
+            background-color: #3498db;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background-color: #1a5276;
+            color: white;
+        }
+        .section {
+            margin-bottom: 40px;
+            background-color: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .perc-container {               /*container percentuali*/
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .perc {                     /*testo percentuali*/
+            text-align: center;
+            padding: 20px;
+            background-color: #e8f4fc;
+            border-radius: 8px;
+            margin: 10px;
+            width: 200px;
+        }
+        .percentuale {                  /*numeri percentuale*/
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #2874a6;
+        }
 
-header {
-    text-align: center;
-    padding: 30px 0;
-}
+        .bottone{
+            display: inline-block; 
+            padding: 15px 30px; 
+            background-color: #2874a6; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold;
+        }
 
-h1 {
-    color: #1a5276;
-    margin-bottom: 20px;
-    font-size: 2.5rem;
-}
-
-.main-image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 40px 0;
-    padding: 0;
-    list-style: none;
-}
-
-.TitoChi{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
-    background-color:rgb(49, 0, 163);
-    height: 90px;
-    font-size: 50px;
-}
-
-.TitoChi2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ChiP{
-    display: flex;
-    border: 2px solid black;
-}
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-header {
-    text-align: center;
-    padding: 30px 0;
-}
-
-h1 {
-    color: #1a5276;
-    margin-bottom: 20px;
-    font-size: 2.5rem;
-}
-
-.main-image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 40px 0;
-    padding: 0;
-    list-style: none;
-}
-
-.menu-item {
-    flex: 1;
-    margin: 0 10px;
-    background-color: #2874a6;
-    border-radius: 6px;
-    text-align: center;
-    
-}
-
-.menu-item a {
-    display: block;
-    padding: 15px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.menu-item:hover {
-    background-color: #3498db;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-    background-color: #1a5276;
-    color: white;
-}
-
+        .flex-container2 {
+            position: absolute;
+            top:240px;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            left:80px;
+            background-color: #2874a6;
+          }
+          
+          .flex-container2 > a {
+            width: 100%;
+            height:50px;
+            text-decoration: none;
+            margin: 10px;
+            line-height: 50px;
+            font-size: 18px;
+            color:white;
+          }
