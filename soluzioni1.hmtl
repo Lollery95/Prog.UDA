@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Waste Solutions </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div class="TitoChi">
+        <div class="TitoChi2">E-Waste Solutions</div>
+    </div>
+
+    <div class="menu">                       <!--menu alto -->
+                <p class="menu-item"><a href="index.html">Home</a></p>
+                <p class="menu-item"><a href="chisiamo.html">Who we are</a></p>
+                <p class="menu-item"><a href="introduzione.html">Introduction</a></p>
+                <p class="menu-item"><a href="conoscenza.html">Average knowledge</a></p>
+            </div>
+    
+    <div class="flex-container2">                   <!--menu laterale per muoversi nella pagina-->
+        <a href="#correnti">Current solutions</a>
+        <a href="#changes">Changes</a>
+    </div>
+    <div class="container">
+
+        
+
+        <div class="section" id="correnti">
+            <h2 class="TitoChi2">Solutions Currently in Motion</h2>
+            <div class="argomenti">
+                <div class="arg">
+                    <div class="cerchio">1</div>
+                    <h3>Extended Producer Responsibility (EPR)</h3>
+                    <p>EPR policies require manufacturers to take responsibility for the entire lifecycle of their products, including collection and recycling when they reach end-of-life. This approach has been implemented in the EU through the WEEE Directive and in various forms across other regions.</p>
+                </div>
+                <div class="arg">
+                    <div class="cerchio">2</div>
+                    <h3>Right to Repair Movement</h3>
+                    <p>Legislation supporting consumers' right to repair their devices is gaining momentum worldwide. These laws require manufacturers to make repair information, tools, and parts available to consumers and independent repair shops, extending product lifespans.</p>
+                </div>
+                <div class="arg">
+                    <div class="cerchio">3</div>
+                    <h3>Circular Design Principles</h3>
+                    <p>Companies are increasingly designing products with circularity in mind, making devices easier to repair, upgrade, and eventually recycle. Modular phones, laptops with replaceable components, and other innovations reflect this shift.</p>
+                </div>
+            </div>
+            <div class="argomenti">
+                <div class="arg">
+                    <div class="cerchio">4</div>
+                    <h3>Advanced Recycling Technologies</h3>
+                    <p>New technologies are being developed to recover materials from e-waste more efficiently. These include advanced mechanical processing, hydrometallurgical methods, biometallurgy, and automated sorting systems that can identify and separate different materials.</p>
+                </div>
+                <div class="arg">
+                    <div class="cerchio">5</div>
+                    <h3>Urban Mining</h3>
+                    <p>The concept of urban mining treats e-waste as a resource rather than trash. Studies show that recovering gold from e-waste can be more economically viable than traditional mining, with 1 ton of circuit boards containing 40-800 times the amount of gold found in 1 ton of ore.</p>
+                </div>
+                <div class="arg">
+                    <div class="cerchio">6</div>
+                    <h3>Product-as-a-Service Models</h3>
+                    <p>Some companies now offer devices as a service rather than a product to buy and own. Customers lease devices, and the company maintains responsibility for upgrades, repairs, and eventual recycling, encouraging better design and resource efficiency.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="changes">
+            <h2 class="TitoChi2">Changes That Have Happened Since Solutions Started </h2>
+            <div class="perc-container">
+                <div class="perc">
+                    <div class="percentuale">42%</div>
+                    <p>Increase in formal e-waste recycling in countries with EPR legislation</p>
+                </div>
+                <div class="perc">
+                    <div class="percentuale">30%</div>
+                    <p>Reduction in e-waste generation in regions with right to repair laws</p>
+                </div>
+                <div class="perc">
+                    <div class="percentuale">65%</div>
+                    <p>Improvement in recovery rates of precious metals using new technologies</p>
+                </div>
+                <div class="perc">
+                    <div class="percentuale">20%</div>
+                    <p>Increase in average lifespan of electronic devices since 2020</p>
+                </div>
+            </div>
+            <p>The implementation of e-waste solutions has led to significant improvements in how electronic waste is managed globally. Countries with comprehensive EPR systems have seen higher collection and recycling rates, while technological innovations have increased the efficiency of material recovery.</p>
+            <p>Consumer awareness has also grown substantially, with more people seeking out repair options, buying refurbished products, and properly disposing of their old electronics.</p>
+            <a href="soluzioni2.html" class="bottone">See More Solutions</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 E-Waste Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
